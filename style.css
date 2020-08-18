@@ -1,0 +1,27 @@
+div {
+	width: 1200px;
+	margin: 0 auto;
+}
+button {
+	width: 200px;
+	height: 85px;
+	margin: 60px;
+	border: none;
+	border-radius: 5px;
+	background-color: #538cc6;
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+}
+button:hover {
+	border-radius: 50px;
+}
+button:active {
+	background-color: #39ac73;
+}
+button:focus {
+	outline: none;
+}
+button {
+	transition: 0.70s all 0.10s ease-in;
+}
